@@ -19,7 +19,7 @@ Assicurarsi di aver installato un editor in grado di eseguire codice Angular o p
 
 ## Progetto statico in HTML + CSS
 1. Aprire il progetto **190721-SviluppoPunto1**
-2. Preme la combinazione di tasti Ctrl + ò
+2. Premere la combinazione di tasti Ctrl + ò
 3. Nel teminal inserire il comando:
 ```
 npm i
