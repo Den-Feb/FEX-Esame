@@ -1,5 +1,8 @@
 # FEX-Esame
 
+## Link [Personas](https://www.figma.com/file/AmwAfGSHDdUwjLF9uWVtaa/211907-Esame)
+## Link [CJM, STS]()
+
 ## Clonare repositoy
 1. Entrare nella cartella dove si vuole clonare la repository
 2. Aprire Powershell
