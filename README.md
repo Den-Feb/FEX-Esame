@@ -15,7 +15,7 @@ Assicurarsi di aver installato un editor in grado di eseguire codice Angular o p
 3. Installare
 
 ## Progetto statico in html + CSS
-1. Aprire il progetto
+1. Aprire il progetto **190721-SviluppoPunto1**
 2. Preme la combinazione di tasti Ctrl + ò
 3. Nel teminal inserire il comando:
 ```
@@ -27,4 +27,15 @@ npm i
 
 ## Progetto Angular
 1. Aprire un editor in grado di eseguire un progetto angular
-2. Aprire 
+2. Aprire il progetto **190721-SviluppoPunto2**
+3. Nel teminal inserire i comandi:
+```
+npm i
+```
+```
+npm audit fix
+```
+```
+ng serve
+```
+
