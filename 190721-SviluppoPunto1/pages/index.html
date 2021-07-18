@@ -9,13 +9,123 @@
     <meta name="keywords" content="Esame, FEX, html, CSS">
     <meta name="author" content="Denis Fabris">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/style-generic.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/style-navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/style-footer.css" />
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <!-- #region NavBar -->
+    <nav id="navbar-box" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand col-3 d-flex align-items-center">
+                <div class="col">
+                    <div class="row justify-content-center">
+                        <img id="navBar-logo" src="../assets/personas_anziano.jpg" alt="Logo" />
+                    </div>
+                </div>
+            </div>
+    
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <div class="navbar-nav col-12">
+                    <div class="col-lg-8 d-flex align-items-center">
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+                                <div class="nav-item col-lg-2">
+                                    <a tabindex="1" class="navBar-text-link nav-link" src="/">Pagina1</a>
+                                </div>
+                                <div class="nav-item col-lg-2">
+                                    <a tabindex="2" class="navBar-text-link nav-link" src="/">Pagina2</a>
+                                </div>
+                                <div class="nav-item col-lg-2">
+                                    <a tabindex="3" class="navBar-text-link nav-link" src="/">Pagina3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <div class="row justify-content-center">
+                            <div class="nav-item col-5 d-flex align-items-center">
+                                <a tabindex="4" class="navBar-text-link nav-link col text-end me-3" id="register" src="/">Nome Cognome</a>
+                            </div>
+                            <div class="col-5">
+                                <img src="../assets/personas_anziano.jpg" alt="user" id="profile" class="rounded-circle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </nav>
+    <!-- #endregion -->
+    
+    <!-- #region Footer -->
+    <div id="footer-box" class="row justify-content-center">
+        <div class="col-lg-8 mt-3 mb-3">
+            <div class="row justify-content-center">
+                <div class="col-6 d-flex align-items-center">
+                    <div class="col">
+                        <div class="row justify-content-center">
+                            <img id="footer-logo" src="../assets/personas_anziano.jpg" alt="Logo" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <div class="col">
+                        <div class="row">
+                            <h1>Nome azienda</h1>
+                            <div class="row">
+                                <p class="footer-text-info col-lg-6"><strong>Indirizzo: </strong>Via Zorutti</p>
+                                <p class="footer-text-info col-lg-6"><strong>Tel: </strong>340123467</p>
+                            </div>
+            
+                            <div class="row">
+                                <p class="footer-text-info col-lg-6"><strong>Cap: </strong>34071</p>
+                                <p class="footer-text-info col-lg-6"><strong>E-mail: </strong>mario.rossi@gmail.com</p>
+                            </div>
+                            <p class="footer-text-info"><strong>Patita IVA:&nbsp;</strong>1234567890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-3 mb-3 d-flex align-items-center">
+            <div class="col">
+                <div class="row">
+                    <h1 class="col-12 text-center">Seguici su</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-2">
+                        <div class="row justify-content-center">
+                            <img tabindex="" src="../assets/linkedin.svg" alt="linkedin" class="social" src="/" />
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row justify-content-center">
+                            <img tabindex="" src="../assets/instagram.svg" alt="Instagram" class="social" src="/" />
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row justify-content-center">
+                            <img tabindex="" src="../assets/facebook.svg" alt="Facebook" class="social" src="/" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
 </body>
 
 </html>

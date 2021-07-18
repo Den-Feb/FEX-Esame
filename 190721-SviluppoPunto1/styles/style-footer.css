@@ -1,0 +1,21 @@
+#footer-box{
+    background-color: #000a12;
+    margin: 0px;
+}
+
+#footer-logo{
+    border-radius: 8px;
+    max-width: 35%;
+    height: auto;
+    padding: 0px;
+    margin: 5%;
+}
+
+.footer-text-info{
+    margin-bottom: 2px;
+}
+
+.social{
+    max-width: 70%;
+    height: auto;
+}

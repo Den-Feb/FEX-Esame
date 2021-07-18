@@ -1,0 +1,27 @@
+// Red
+$red_primary: #B71C1C;
+$red_light: #f05545;
+$red_dark: #7f0000;
+
+// Blu
+$blu_primary: #1a237e;
+$blu_light: #534bae;
+$blu_dark: #000051;
+
+// Black
+$black_primary: #263238;
+$black_light: #4f5b62;
+$black_dark: #000a12;
+
+// Grey
+$grey_primary: #bdbdbd;
+$grey_light: #efefef;
+$grey_dark: #8d8d8d;
+
+// Font
+$font_family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+// Font-size
+$size_title: 2rem;
+$size_subTitle: 1rem;
+$size_text: 0.9rem;

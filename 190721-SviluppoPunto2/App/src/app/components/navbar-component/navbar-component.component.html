@@ -1,0 +1,49 @@
+<nav id="navbar-box" class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <div class="navbar-brand col-3 d-flex align-items-center">
+            <div class="col">
+                <div class="row justify-content-center">
+                    <img id="navBar-logo" src="../assets/personas_anziano.jpg" alt="Logo" />
+                </div>
+            </div>
+        </div>
+
+        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <div class="navbar-nav col-12">
+                <div class="col-lg-8 d-flex align-items-center">
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            <div class="nav-item col-lg-2">
+                                <a tabindex="1" class="navBar-text-link nav-link" [routerLink]="['/']">Pagina1</a>
+                            </div>
+                            <div class="nav-item col-lg-2">
+                                <a tabindex="2" class="navBar-text-link nav-link" [routerLink]="['/']">Pagina2</a>
+                            </div>
+                            <div class="nav-item col-lg-2">
+                                <a tabindex="3" class="navBar-text-link nav-link" [routerLink]="['/']">Pagina3</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex align-items-center">
+                    <div class="row justify-content-center">
+                        <div class="nav-item col-5 d-flex align-items-center">
+                            <a tabindex="4" class="navBar-text-link nav-link col text-end me-3" id="register" [routerLink]="['/']">Nome Cognome</a>
+                        </div>
+                        <div class="col-5">
+                            <img src="../assets/personas_anziano.jpg" alt="user" id="profile" class="rounded-circle" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</nav>

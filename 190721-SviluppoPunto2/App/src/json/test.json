@@ -2,31 +2,11 @@
     "profile": [
       {
         "id": 1,
-        "nome_azienda": "TECHly",
-        "ragione_sociale": "Azienda TECHly s.r.l.",
-        "partita_iva": "IT0123456789",
-        "referente": "Mario Verdi",
-        "sede": "Via Milano 15, Pordenone",
-        "telefono": "0432 657896",
-        "mail": "techly@gmail.com",
-        "linkedin": "TECHly",
-        "sito": "https://techly.com",
-        "descrizione": "TECHly è un'azienda con sede a Pordenone(PN)",
-        "password": "techly123"
+        "nome_azienda": "TECHly"
       },
       {
         "id": 2,
-        "nome_azienda": "aaaaa",
-        "ragione_sociale": "Azienda aaaaa s.r.l.",
-        "partita_iva": "IT0123456789",
-        "referente": "Mario Verdi",
-        "sede": "Via Milano 15, Pordenone",
-        "telefono": "0432 657896",
-        "mail": "aaaaa@gmail.com",
-        "linkedin": "aaaaa",
-        "sito": "https://aaaaa.com",
-        "descrizione": "aaaaa è un'azienda con sede a Pordenone(PN)",
-        "password": "aaaaa123"
+        "nome_azienda": "aaaaa"
       }
     ]
   }

@@ -1,0 +1,22 @@
+#navbar-box{
+    background-color: #000a12;
+}
+
+#navBar-logo{
+    border-radius: 8px;
+    max-width: 30%;
+    height: auto;
+    padding: 0px;
+    margin: 5%;
+}
+
+#profile{
+    max-width: 55%;
+    height: auto;
+    margin: 5%;
+    padding: 0px;
+}
+
+.navBar-text-link{
+    text-align: center;
+}
