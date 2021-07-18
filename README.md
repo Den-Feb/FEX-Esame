@@ -2,7 +2,7 @@
 
 ## Link [Personas](https://www.figma.com/file/AmwAfGSHDdUwjLF9uWVtaa/211907-Esame)
 ## Link [CJM, STS]()
-## Link [Swagger]()
+## Link [documentazione API con Swagger](https://app.swaggerhub.com/apis/Den-Feb/DocumentazioneAPI/1.0.0)
 
 ## Clonare repositoy
 1. Entrare nella cartella dove si vuole clonare la repository
