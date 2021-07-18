@@ -16,9 +16,14 @@ Assicurarsi di aver installato un editor in grado di eseguire codice Angular o p
 
 ## Progetto statico in html + CSS
 1. Aprire il progetto
-2. Cercare l'explorer con tutti i file
-3. Individuare il file **index.html** all'interno della cartella **pages**
-4. Tasto destro sul file **index.html** e selezionare la voce **Open with Live Server**
+2. Preme la combinazione di tasti Ctrl + ò
+3. Nel teminal inserire il comando:
+```
+npm i
+```
+3. Cercare l'explorer con tutti i file
+4. Individuare il file **index.html** all'interno della cartella **pages**
+5. Tasto destro sul file **index.html** e selezionare la voce **Open with Live Server**
 
 ## Progetto Angular
 1. Aprire un editor in grado di eseguire un progetto angular
