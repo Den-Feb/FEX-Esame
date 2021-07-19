@@ -19,15 +19,19 @@ Assicurarsi di aver installato un editor in grado di eseguire codice Angular o p
 3. Installare
 
 ## Progetto statico in HTML + CSS
+1. Doppio click su index.html
+
+### Oppure
+
 1. Aprire il progetto **190721-SviluppoPunto1**
 2. Premere la combinazione di tasti Ctrl + ò
 3. Nel teminal inserire il comando:
 ```
 npm i
 ```
-3. Cercare l'explorer con tutti i file
-4. Individuare il file **index.html** all'interno della cartella **pages**
-5. Tasto destro sul file **index.html** e selezionare la voce **Open with Live Server**
+4. Cercare l'explorer con tutti i file
+5. Individuare il file **index.html** all'interno della cartella **pages**
+6. Tasto destro sul file **index.html** e selezionare la voce **Open with Live Server**
 
 ## Progetto Angular
 1. Aprire un editor in grado di eseguire un progetto angular
