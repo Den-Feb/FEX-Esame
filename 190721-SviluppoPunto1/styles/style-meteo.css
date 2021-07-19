@@ -1,0 +1,15 @@
+#meteo-box{
+    border-radius: 8px;
+    background-color: #000a12;
+}
+
+.meteo-title{
+    color: white;
+    font-weight: bold;
+}
+
+.meteo-text{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
