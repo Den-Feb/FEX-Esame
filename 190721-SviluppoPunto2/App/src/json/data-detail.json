@@ -1,0 +1,42 @@
+{
+    "data_detail": [
+        {
+            "id": 1,
+            "name": "Roma",
+            "interest": [
+                {
+                    "id": 1,
+                    "type_interest": "Storico"
+                },
+                {
+                    "id": 2,
+                    "type_interest": "Paesagistico"
+                }
+            ],
+            "population": "2.8 Milioni",
+            "attractions": [
+                {
+                    "id": 1,
+                    "name_attractions": "Colosseo",
+                    "state_attractions": "Aperto",
+                    "open_attractions": "9:00",
+                    "close_attractions": "19:00",
+                    "people_enter": 200,
+                    "people_exit": 20
+                }
+            ],
+            "meteo": [
+                {
+                    "id": 1,
+                    "day": "Martedì 19",
+                    "degrees": "19° 32°"
+                },
+                {
+                    "id": 2,
+                    "day": "Mercoledì 20",
+                    "degrees": "19° 32°"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+hr{
+    background-color: white;
+}
+
+#attractions-box{
+    border-radius: 8px;
+    background-color: #000a12;
+}
+
+.attraction-title{
+    color: white;
+    font-weight: bold;
+}
+
+.attraction-button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#item-img{
+    max-width: 50%;
+    border-radius: 8px;
+    height: auto;
+    padding: 0px;
+}
+
+#open-item-img{
+    max-width: 10%;
+    height: auto;
+    padding: 0px;
+}
+
+.attraction-state{
+    color:white;
+    text-align: center;
+}
+
+.attraction-time-box{
+    border-radius: 8px;
+    background-color: #4f5b62;
+}

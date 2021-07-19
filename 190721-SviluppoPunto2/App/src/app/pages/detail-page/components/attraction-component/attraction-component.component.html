@@ -1,0 +1,38 @@
+<div *ngIf="data != null">
+    <hr>
+    <div class="col-lg-10">
+        <h2 class="attraction-item-title">{{data.name_attractions}}</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <button class="attraction-button btn col-12">Pass giornaliero</button>
+            </div>
+            <div class="col-lg-6">
+                <button class="attraction-button btn col-12">Pass settimanale</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2 d-flex align-items-end">
+        <div class="row col-12 justify-content-center">
+            <button class="btn col-12"><img id="open-item-img" src="assets/arrow-menu-up.svg" alt="open" /></button>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-3">
+        <p class="attraction-state col-12 mt-3"><strong>Sato: </strong>{{data.state_attractions}}</p>
+        <div class="attraction-time-box col-8 p-3">
+            <h2 class="attraction-item-title">Orari</h2>
+            <div class="row justify-content-center">
+                <p class="col-12"><strong>Apertura: </strong>{{data.open_attractions}}</p>
+                <p class="col-12"><strong>Chiusura: </strong>{{data.close_attractions}}</p>
+            </div>
+        </div>
+        <h2 class="attraction-item-title mt-3">Affolamento</h2>
+        <p class="col-12"><strong>Persone entrate: </strong>{{data.people_enter}}</p>
+        <p class="col-12"><strong>Persone uscite: </strong>{{data.people_exit}}</p>
+        <p class="col-12"><strong>Persone presenti: </strong>200</p>
+        <p class="col-12"><strong>Persone media: </strong>200</p>
+        <div class="row justify-content-center">
+            <img class="col-5 me-1" id="item-img" src="assets/colosseo.jpg" alt="colosseo" />
+            <img class="col-5" id="item-img" src="assets/colosseo.jpg" alt="colosseo" />
+        </div>
+    </div>
+</div>

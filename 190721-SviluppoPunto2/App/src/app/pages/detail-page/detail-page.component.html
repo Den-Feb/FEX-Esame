@@ -1,0 +1,9 @@
+<!-- <app-infolocation-component [data]="data"></app-infolocation-component> -->
+<app-infolocation-component></app-infolocation-component>
+<div id="attractions-box" class="row mb-3 p-3">
+    <h1 class="attraction-title col-12">Attrazioni</h1>
+    <div class="row" *ngFor="let item of data">
+        <app-attraction-component [data]="item"></app-attraction-component>
+    </div>
+</div>
+<app-meteo-component></app-meteo-component>

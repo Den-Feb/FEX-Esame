@@ -1,0 +1,26 @@
+<div class="row mb-3">
+    <div class="col-lg-7 d-flex align-items-end">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row justify-content-end">
+                        <button class="btn col-2"><img id="save-img" src="assets/heart.svg"
+                                alt="save" /></button>
+                    </div>
+                </div>
+                <h1 class="col-12 inf-loc-title">{{data.name}}</h1>
+                <p class="col-12 inf-loc-text"><strong>Interessi: </strong></p><p class="inf-loc-text" *ngFor="let item of data.interest">{{item.type_interest}}</p>
+                <p class="col-12 inf-loc-text"><strong>Abitanti: </strong>{{data.population}}</p>
+                <p class="col-12 inf-loc-text"><strong>Attrazione principale: </strong>{{data.attractions[0].name_attractions}}</p>
+            </div>
+            <div class="row">
+                <button id="info-loc-prenotation" class="col btn" [routerLink]="['/prenotation']">Prenotazione</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="row justify-content-center">
+            <img id="infoLocation-img" src="assets/colosseo.jpg" alt="colosseo" />
+        </div>
+    </div>
+</div>

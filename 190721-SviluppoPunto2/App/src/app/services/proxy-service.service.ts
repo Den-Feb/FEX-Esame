@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { DataDetail } from '../models/data-detail';
 import { Profile } from '../models/test';
 
 @Injectable({
@@ -9,10 +10,10 @@ export class ProxyServiceService {
   private _url: string;
 
   constructor(private http: HttpClient) { 
-    this._url = "profile"
+    this._url = "http://localhost:3000/data_detail"
   }
 
-  public getAllItems = () =>{
-    return this.http.get<Profile>(this._url);
+  public getItemById = (id: number) =>{
+    return this.http.get<DataDetail>(this._url+ "/" +id);
   }
 }
