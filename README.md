@@ -1,7 +1,7 @@
 # FEX-Esame
 
 ## Link [Personas](https://www.figma.com/file/AmwAfGSHDdUwjLF9uWVtaa/211907-Esame)
-## Link [CJM, STS]()
+## Link [CJM, STS](https://miro.com/welcomeonboard/Z2pJOWZDSUxtWWNDa0dnM3ozdldYcEJ0eHpPUTdqVE9HMzRJenZiZ3Jpdlg3VEtXSWR0bkpEcGphdVBjT2kyd3wzMDc0NDU3MzUzNDQ3MDA4NzY1)
 ## Link [documentazione API con Swagger](https://app.swaggerhub.com/apis/Den-Feb/DocumentazioneAPI/1.0.0)
 
 ## Clonare repositoy
