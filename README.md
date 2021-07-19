@@ -46,4 +46,9 @@ npm audit fix
 ```
 ng serve
 ```
+4. Eseguire JSON
+5. aprire cartella del json in terminal
+```
+json-server data_detail.json
+```
 
